@@ -58,7 +58,7 @@ function ParseMd(filePath) {
     const images = doc.getElementsByTagName("img");
     if (images) {
       return Array.from(images).map((element) => ({
-        src: "/" + dirPath + extractDirectoryName(filePath) + element.getAttribute("src").replace(/./, "") || "",
+        src: dirPath + extractDirectoryName(filePath) + element.getAttribute("src").replace(/./, "") || "",
         class: element.getAttribute("class") || "",
       }));
     }
