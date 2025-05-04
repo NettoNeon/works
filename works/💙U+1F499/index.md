@@ -13,9 +13,9 @@
 ## images
 
 <p align='center'>
-<img class="image_pc" src="/works/images/💙U+1F499_pc.png" width="1280" height="800" alt="PC">
+<img class="image_pc" src="images/💙U+1F499_pc.png" width="1280" height="800" alt="PC">
 </p>
 
 <p align='center'>
-<img class="image_sp" src="/works/images/💙U+1F499_sp.png" width="430" height="932" alt="SP">
+<img class="image_sp" src="images/💙U+1F499_sp.png" width="430" height="932" alt="SP">
 </p>
