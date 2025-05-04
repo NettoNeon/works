@@ -3,7 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "imagemin": "node imagemin.mjs"
+    "imagemin": "node imagemin.mjs",
+    "2json": "node parse-md.mjs"
   },
   "browserslist": [
     "defaults"
@@ -11,6 +12,7 @@
   "devDependencies": {
     "imagemin-keep-folder": "^5.3.2",
     "imagemin-mozjpeg": "^10.0.0",
-    "imagemin-pngquant": "^9.0.2"
+    "imagemin-pngquant": "^9.0.2",
+    "jsdom": "^26.1.0"
   }
 }

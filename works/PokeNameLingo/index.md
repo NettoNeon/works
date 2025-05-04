@@ -12,7 +12,7 @@
 
 ## 解説記事
 
-<a class="link" target="_blank">https://zenn.dev/210neon/books/5efb0b9517c05b</a>
+<a class="article" target="_blank">https://zenn.dev/210neon/books/5efb0b9517c05b</a>
 
 ## images
 
