@@ -58,13 +58,12 @@ function ParseMd(filePath) {
     const images = doc.getElementsByTagName("img");
     if (images) {
       return Array.from(images).map((element) => ({
-        src: element.getAttribute("src") || "",
+        src: "/" + dirPath + extractDirectoryName(filePath) + element.getAttribute("src").replace(/./, "") || "",
         class: element.getAttribute("class") || "",
       }));
     }
   }
 
-  // console.log(doc.getElementsByClassName("description")[0]);
   // mdファイルの中身をコンソールに表示
   console.log(`--- ${filePath} ---`);
   console.log(data);
