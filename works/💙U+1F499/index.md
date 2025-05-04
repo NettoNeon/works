@@ -13,9 +13,9 @@
 ## images
 
 <p align='center'>
-<img class="image_pc" src="images/_pc.png" width="1280" alt="PC">
+<img class="image_pc" src="works/images/_pc.png" width="1280" alt="PC">
 </p>
 
 <p align='center'>
-<img class="image_sp" src="images/_sp.png" width="430" alt="SP">
+<img class="image_sp" src="works/images/_sp.png" width="430" alt="SP">
 </p>
