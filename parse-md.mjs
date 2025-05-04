@@ -23,9 +23,6 @@ function mdFiles(dirPath) {
       mdFiles(filePath);
     }
   }
-
-  // jsonDataをworks.jsonとして書き出す
-  saveJsonToFile(jsonData);
 }
 mdFiles(dirPath);
 
@@ -77,13 +74,22 @@ function ParseMd(filePath) {
 }
 
 function saveJsonToFile(jsonData, fileName = "works.json") {
+  // `YYYY/MM/DD`のフォーマットを統一してソート
+  jsonData.sort((a, b) => {
+    const dateA = new Date(a.date.replace(/[\/.]/g, "-"));
+    const dateB = new Date(b.date.replace(/[\/.]/g, "-"));
+    return dateB - dateA;
+  });
+
   const content = JSON.stringify(jsonData);
-  fs.writeFile(`${dirPath}${fileName}`, content, (err) => {
+  fs.writeFile(`json/${fileName}`, content, (err) => {
     if (err) {
       console.error(err);
     } else {
-      // file written successfully
+      console.log(`JSONファイルを生成しました`);
     }
   });
-  console.log(`JSONファイルを生成しました`);
 }
+
+// jsonDataをworks.jsonとして書き出す
+saveJsonToFile(jsonData);
