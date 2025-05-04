@@ -17,10 +17,10 @@
 ## images
 
 <p align='center'>
-<img class="image_pc" src="./_pc.png" width="1280" height="800" alt="PC">
+<img class="image_pc" src="/works/images/💻U+1F4BB_pc.png" width="1280" alt="PC">
 </p>
 
 <p align='center'>
-<img class="image_sp" src="./_sp.png" width="430" height="932" alt="SP">
-<img class="image_sp" src="./_sp_02.png" width="430" height="932" alt="SP">
+<img class="image_sp" src="/works/images/💻U+1F4BB_sp.png" width="430" alt="SP">
+<img class="image_sp" src="/works/images/💻U+1F4BB_sp_02.png" width="430" alt="SP">
 </p>
