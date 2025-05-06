@@ -1,5 +1,6 @@
 # 💻U+1F4BB
 
+<img class="favicon" src="./favicon/💻U+1F4BB.svg" width="50">
 <p class="description">Matter.jsとジャイロを使用したクリックゲーム</p>
 
 ## date

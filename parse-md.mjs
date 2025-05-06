@@ -40,7 +40,7 @@ function ParseMd(filePath) {
     images: [],
   };
 
-  data.title = extractDirectoryName(filePath);
+  data.title = extractDirectoryName(filePath).replace(".md", "");
   data.description = doc.getElementsByClassName("description")[0]?.innerHTML || null;
   data.date = doc.getElementsByClassName("date")[0]?.innerHTML || null;
   data.link = doc.getElementsByClassName("link")[0]?.innerHTML || null;

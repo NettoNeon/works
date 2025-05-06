@@ -1,5 +1,6 @@
 # ボイポ！ （音声合成ソフトを見つけるサイト）
 
+<img class="favicon" src="./favicon/Voipo!.svg" width="50">
 <p class="description">音声合成ソフトを横断的に検索するためのサイト</p>
 
 ## date

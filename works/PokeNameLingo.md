@@ -1,5 +1,6 @@
 # PokeNameLingo（ポケモン名前翻訳クイズ）
 
+<img class="favicon" src="./favicon/PokeNameLingo.png" width="50">
 <p class="description">8言語から選んで翻訳クイズを遊べます。</p>
 
 ## date
