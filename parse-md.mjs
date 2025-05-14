@@ -20,10 +20,12 @@ function mdFiles(dirPath) {
       }
     } else if (stats.isDirectory()) {
       // ディレクトリの場合は再帰的に処理する
-      mdFiles(filePath);
+      // mdFiles(filePath);
+      // 再帰処理しない
     }
   }
 }
+
 mdFiles(dirPath);
 
 function ParseMd(filePath) {
